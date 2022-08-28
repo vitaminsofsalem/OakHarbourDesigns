@@ -114,7 +114,7 @@
 	}
 	
 	.button-solid:hover {
-		background: #cfa911;
+		background: transparent;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
 		transition: .2s ease;
@@ -156,6 +156,33 @@
 		color: #fff;
 		background: var(--primary);
 		border: none;
+	}
+
+	.button-outlined {
+		color: #fff;
+		display: block;
+		margin: auto;
+		text-align: center;
+		text-decoration: none;
+		border: 1px solid #fff;
+		/* background: var(--primary); */
+		line-height: 50px;
+		width: 250px;
+		border-radius: 3px;
+		font-size: 18px;
+		font-family: "Roboto", sans-serif;
+		-webkit-transition: .2s ease;
+		-o-transition: .2s ease;
+		transition: .2s ease;
+		display: inline-block;
+	}
+	
+	.button-outlined:hover {
+		background: #cfa911;
+		border: 1px solid transparent;
+		-webkit-transition: .2s ease;
+		-o-transition: .2s ease;
+		transition: .2s ease;
 	}
 	
 	.hamburger {

@@ -178,7 +178,7 @@
 
     body.dark-mode .button-solid {
         color: #222;
-        font-weight: bold;
+        font-weight: light;
     }
 
     body.dark-mode .navbar-menu {
@@ -194,7 +194,7 @@
     <--- -------------------------- -*/
     
     body.dark-mode #hero {
-        background: url("../images/landing-dark.png");
+        background: url("../images/image-10.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

@@ -52,7 +52,7 @@ const darkModeToggle = document.querySelector('.dark-mode-button');
 // for an optional footer dark mode button as well
 const darkModeToggleFooter = document.querySelector('footer .dark-mode-button');
 
-// This is where you add the dakr mode class.  When the dark mode is enabled as true in localstorage,
+// This is where you add the dark mode class.  When the dark mode is enabled as true in local storage,
 // it will add all the dark-mode classes to the elements we created in the variables above
 const enableDarkMode = () => {
 
